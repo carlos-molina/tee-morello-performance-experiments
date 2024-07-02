@@ -1,3 +1,4 @@
 # tee-morello-performance-experiments
-Experiments executed with compartments in a Morello Board.
+
+Experiments executed on Morello Board compartments to evaluate some of its performance parameters.
 
