@@ -22,17 +22,17 @@ Alice executed the following steps:
 1) Initiation: In the morello board Alice initiates cheri-cap-experiment.py with the
 following paremeters.
 
-a) process_list: list to store the processes started. For
-   example Alice can type .....  in .... [where?]
+    a) process_list: list to store the processes started. For
+     example Alice can type .....  in .... [where?]
 
-b) max_memory_usage: gets the total amount of memory available on the system.
-   Alice .....??????
+    b) max_memory_usage: gets the total amount of memory available on the system.
+     Alice .....??????
 
-c) csv_file: name of the CSV file to save the results. For
-   example can chose results.csv
+    c) csv_file: name of the CSV file to save the results. For
+       example can chose results.csv
 
-d) start_time: marks the start time to calculate the elapsed time.
-   Alice .....?????
+    d) elapsed) start_time: marks the start time to calculate the elapsed time.
+       Alice .....?????
 
 1) Launch: to launch cheri-cap-experiment.py Alice executes
    % python3 cheri-cap-experiment.py
