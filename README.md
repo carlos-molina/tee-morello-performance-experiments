@@ -63,3 +63,17 @@ first glance observation that we will need to double
 check to make a sound claim.
  
  
+ 
+ ### Acknowledgements
+ The code was mainly implemented mainly by Regis Rodolfo Schuch (regis.schuch@unijui.edu.br) <br>
+  
+ Member of the Applied Computing Research Group, Unijui University, Brazil
+
+
+
+
+ ## Corresponding author  
+ Carlos Molina-Jimenez (carlos.molina@cl.cam.ac.uk)   
+ Computer Lab, University of Cambridge.
+
+ 
