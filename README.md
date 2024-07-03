@@ -55,7 +55,9 @@ is, about 15406567833 bytes.
 
 
 ### Preliminary observations:
-From the preliminary results it seems that 3800 compartments 
+From the preliminary results 
+(see [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file"))
+it seems that 3800 compartments 
 consume 90% of the Morello Board's memory. But this is only a
 first glance observation that we will need to double
 check to make a sound claim.
