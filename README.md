@@ -35,7 +35,8 @@ discussed in - [tee-compartimentalisation-study-case repository](https://github.
 </p>
 
 
-1) cheri-cap-experiment.py scrypt is used create the replicas of the attestables, and collect metrics. We incremented the number of replicas created from 1 to 3800.
+1) cheri-cap-experiment.py scrypt is used create the replicas of the attestables, and collect metrics. We incremented the number of replicas created 
+from 1 to 8991.
 See [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file")
 </p>
 
