@@ -7,13 +7,13 @@ This repository contains some experiments executed on Morello Board compartments
 The main aim of this experiment is to measure and analyse how the memory of a Morello Board is consumed by instances of attestables. To this end, we implemented 
 a executable-program.c, compiled with library compartmentalisation tool and 
 loaded in a compartment.  The metric to measure is the number of attestables
-that can be created on a Morello Board before consuming 80% of its
+that can be created on a Morello Board before consuming 90% of its
 memory. 
 
 In addition to the number of attestables, we took the opportunity to collect metrics about the time it takes the operating sustem to wipe the memory used by the
 attestable.
 
-
+<p>
 Some experimental facts:
 
 1) The morello board used to conduct the experiment
@@ -24,13 +24,19 @@ discussed in - [tee-compartimentalisation-study-case repository](https://github.
 
 1) cheri-cap-experiment.py scrypt is used create the replicas of the attestables, and collect metrics. We incremented the number of replicas created from 1 to 8991.
 See [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file")
+</p>
 
+ 
+<p>
+The following figure shows the experiment set up.
 
 <p align="center">
   <img src="./figures/create_load_atts.png"
    width="500" title="Create attestables to consume 90% of total memmory.">
 </p>
 </br>
+</pr>
+
 
 Imagine that user Alice is conducting the experiment. To created
 the attestables and collect the metrics, Alice
