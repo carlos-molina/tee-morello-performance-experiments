@@ -22,10 +22,12 @@ Some experimental facts:
 1) The computation of executable-program.c is irrelevant. In the experiments that we conducted, it executes some mathematical functions. It can be also the EAI
 discussed in - [tee-compartimentalisation-study-case repository](https://github.com/CAMB-DSbD/tee-compartimentalisation-study-case "Git repository"). We compiled as shown below:
 
+    
+
 <p>
-***$ clang-morello -march=morello+c64 -mabi=purecap***<br>     
+  $ clang-morello -march=morello+c64 -mabi=purecap<br>     
   -g -o integration_process  integration_process.c -L.<br>     -Wl,-dynamic-linker,/libexec/ld-elf-c18n.so.1 
-  -lssl -lcrypto -lpthread***<br>    
+  -lssl -lcrypto -lpthread<br>    
 </p>
 
 1) cheri-cap-experiment.py scrypt is used create the replicas of the attestables, and collect metrics. We incremented the number of replicas created from 1 to 3800.
