@@ -28,7 +28,7 @@ See [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello
 
 <p align="center">
   <img src="./figures/create_load_atts.png"
-   width="350" title="Create attestables to consume 90% of total memmory.">
+   width="500" title="Create attestables to consume 90% of total memmory.">
 </p>
 </br>
 
