@@ -23,7 +23,7 @@ Some experimental facts:
 discussed in - [tee-compartimentalisation-study-case repository](https://github.com/CAMB-DSbD/tee-compartimentalisation-study-case "Git repository"). We compiled as shown below:
 
 <p>
-***$ clang-morello -march=morello+c64 -mabi=purecap<br>     
+***$ clang-morello -march=morello+c64 -mabi=purecap***<br>     
   -g -o integration_process  integration_process.c -L.<br>     -Wl,-dynamic-linker,/libexec/ld-elf-c18n.so.1 
   -lssl -lcrypto -lpthread***<br>    
 </p>
