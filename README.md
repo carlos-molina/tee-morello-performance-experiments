@@ -6,8 +6,8 @@ This repository contains some experiments executed on Morello Board compartments
 ## Memory exhaustion by attestable replicas
 The main aim of this experiment is to measure and analyse how the memory of a Morello Board is consumed by instances of attestables. To this end, we loaded the attestsable
 with a C program compiled with library compartmentalisation tool and 
-loaded in a compartment; precisely, we used the  
-enterprise application integration use case implemented in - [tee-compartimentalisation-study-case repository](https://github.com/CAMB-DSbD/tee-compartimentalisation-study-case "Git repository").
+loaded in a compartment; precisely, we used the enterprise application integration 
+(see yellow box) use case implemented in - [tee-compartimentalisation-study-case repository](https://github.com/CAMB-DSbD/tee-compartimentalisation-study-case "Git repository").
   
 
 The metric to measure is the number of attestables
