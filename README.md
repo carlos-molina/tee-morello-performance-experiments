@@ -63,10 +63,10 @@ consumed 90% of the 17118408704 bytes of the Morello Board's memory, that
 is, about 15406567833 bytes.
 
 
-### Preliminary observations:
+### Preliminary observations: 
 From the preliminary results 
 (see [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file"))
-it seems that 8991 compartments 
+it seems that 8991 compartments   
 consume 90% of the Morello Board's memory. But this is only a
 first glance observation that we will need to double
 check to make a sound claim.
