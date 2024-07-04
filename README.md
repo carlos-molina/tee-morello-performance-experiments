@@ -26,6 +26,12 @@ discussed in - [tee-compartimentalisation-study-case repository](https://github.
 See [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file")
 
 
+<p align="center">
+  <img src="./figures/create_load_atts.png"
+   width="350" title="Create attestables to consume 90% of total memmory.">
+</p>
+</br>
+
 Imagine that user Alice is conducting the experiment. To created
 the attestables and collect the metrics, Alice
 executes the following steps:
