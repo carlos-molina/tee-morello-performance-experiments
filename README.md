@@ -36,7 +36,7 @@ discussed in - [tee-compartimentalisation-study-case repository](https://github.
 
 
 1) cheri-cap-experiment.py scrypt is used create the replicas of the attestables, and collect metrics. We incremented the number of replicas created 
-from 1 to 8991.
+from 1 to N.
 See [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file")
 </p>
 
@@ -63,9 +63,10 @@ executes the following steps:
 1) Launch: to launch cheri-cap-experiment.py Alice executes
    % python3 cheri-cap-experiment.py
 
-1) python3 cheri-cap-experiment.py runs incrementally creating attestable replicas until it detects that the attestables have 
-consumed 90% of the 17118408704 bytes of the Morello Board's memory, that 
-is, about 15406567833 bytes.
+1) python3 cheri-cap-experiment.py runs incrementally creating attestable 
+replicas until it detects that the attestables have 
+consumed 90% of the 17118408704 bytes of the Morello Board's memory, 
+that is, about 15406567833 bytes.
 
 
 ### Preliminary observations: 
