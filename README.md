@@ -30,6 +30,7 @@ discussed in - [tee-compartimentalisation-study-case repository](https://github.
   -lssl -lcrypto -lpthread<br>    
 </p>
 
+
 1) cheri-cap-experiment.py scrypt is used create the replicas of the attestables, and collect metrics. We incremented the number of replicas created from 1 to 3800.
 See [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file")
 </p>
@@ -65,10 +66,11 @@ is, about 15406567833 bytes.
 ### Preliminary observations:
 From the preliminary results 
 (see [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file"))
-it seems that 3800 compartments 
+it seems that 8991 compartments 
 consume 90% of the Morello Board's memory. But this is only a
 first glance observation that we will need to double
 check to make a sound claim.
+ 
  
  
  
