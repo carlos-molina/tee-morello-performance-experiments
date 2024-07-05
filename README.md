@@ -94,6 +94,18 @@ showing this preliminary results only to show
 that this is a pending question in our agenda.
 The analysys of the time to wipe the memory
 of the attestable replicas is also pending. 
+
+<p>
+The cpu-performance and memory-performance folders
+contain code and results of some experiments in 
+progress. Cpu-performance is meant to measure
+the performance of code running inside attestables 	
+in the computation of some mathematical operations, integer 
+arithmetic, floating point arithmetic, and array 
+manipulation. Memory-performance is meant to
+assess the time it takes an attestable to allocate
+and free blocks of memory of diffetent sizes.
+</p>	
  
  
  
