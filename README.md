@@ -21,7 +21,8 @@ attestable.
 Some experimental facts:
 
 1) The morello board used to conduct the experiment
-   has 17118408704 bytes  (approximately 17.1 GB).
+   has 17118408704 bytes  (approximately 17118.4 MB). Thus
+   90% of its memory is 15406567833.6 bytes (approximately 15406.5 MB).
    
 1) The computation of executable-program.c is irrelevant. In the experiments that we conducted, it executes some mathematical functions. It can be also the EAI
 discussed in - [tee-compartimentalisation-study-case repository](https://github.com/CAMB-DSbD/tee-compartimentalisation-study-case "Git repository"). We compiled as shown below:
@@ -65,17 +66,30 @@ executes the following steps:
 
 1) python3 cheri-cap-experiment.py runs incrementally creating attestable 
 replicas until it detects that the attestables have 
-consumed 90% of the 17118408704 bytes of the Morello Board's memory, 
-that is, about 15406567833 bytes.
+consumed 90% of the 17118.4 bytes of the Morello Board's memory, 
+that is, about 15406.5 bytes.
 
 
 ### Preliminary observations: 
-From the preliminary results 
-(see [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file"))
-it seems that 8991 compartments   
-consume 90% of the Morello Board's memory. But this is only a
-first glance observation that we will need to double
-check to make a sound claim.
+The results are shown in [replication of attestable results](https://github.com/CAMB-DSbD/tee-morello-performance-experiments/blob/main/cheri-caps-executable-performance/cheri-cap-experiment-results.csv "svs file")
+and exhibit an unexpected behaviour.
+We expected memory consumption to increase steadily 
+form 1628.3 MB which correspond to a single 
+attestable replica to 15406.5 MB (90% of total memmory).<br>    
+
+However, unexpectedly, memory consumption increased
+steadly only up to the creation of 3800 attestable replicas
+that consumed 14582.5 MB. Beyond that, memory
+consumption decreases as the number of attestable
+replicas increases. Observe that the last
+metric shows that 8991 attestable replicas
+consume 13066.4 MB (aproximately 76% of the total
+memory).<br>     
+
+We do not have an explanation for that yet.
+We need to double check measurements. We are
+showing this preliminary results only to show
+that this is a pending question in our agenda. 
  
  
  
