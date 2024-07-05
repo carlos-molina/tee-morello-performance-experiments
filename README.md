@@ -113,12 +113,12 @@ and free blocks of memory of diffetent sizes.
  The code was mainly implemented mainly by Regis Rodolfo Schuch (regis.schuch@unijui.edu.br) <br>
   
  Member of the Applied Computing Research Group, Unijui University, Brazil
-
+[Applied Computing Research Group, Unijui University, Brazil](https://github.com/CAMB-DSbD/tee-compartimentalisation-study-case "Web page").
 
 
 
  ## Corresponding author  
  Carlos Molina-Jimenez (carlos.molina@cl.cam.ac.uk)   
  Computer Lab, University of Cambridge.
-
+[CAMB project](https://www.cl.cam.ac.uk/research/srg/projects/camb/ "Web page").
  
