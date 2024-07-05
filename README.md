@@ -97,7 +97,6 @@ of the attestable replicas is also pending.
  
  
  
- 
  ### Acknowledgements
  The code was mainly implemented mainly by Regis Rodolfo Schuch (regis.schuch@unijui.edu.br) <br>
   
