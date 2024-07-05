@@ -76,7 +76,8 @@ and exhibit an unexpected behaviour.
 We expected memory consumption to increase steadily 
 form 1628.3 MB which correspond to a single 
 attestable replica to 15406.5 MB (90% of total memory) consumed
-by N attestable replicas<br>    
+by N attestable replicas. The aim was to determine the
+value of N.<br>    
 
 However, unexpectedly, memory consumption increased
 steadly only up to the creation of 3800 attestable replicas
