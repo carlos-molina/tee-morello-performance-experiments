@@ -112,7 +112,7 @@ and free blocks of memory of diffetent sizes.
  ### Acknowledgements
  The code was mainly implemented mainly by 
  [Regis Rodolfo Schuch](http://gca.unijui.edu.br/student/?member=81 "Web page")     
- (regis.schuch@unijui.edu.br) <br>
+ (regis.schuch@unijui.edu.br)<br>    
  
  Member of the Applied Computing Research Group, Unijui University, Brazil
 [Applied Computing Research Group, Unijui University, Brazil](http://gca.unijui.edu.br "Web page").
