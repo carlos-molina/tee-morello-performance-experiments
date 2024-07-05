@@ -1,12 +1,12 @@
 # Attestable's performance evaluation
 
-This repository contains some experiments executed on Morello Board compartments to evaluate some of its performance parameters. Our final aim is to evaluate the cost of instantiating attestables in the Morello Board. For example, how many of them can be instantiated.
+This repository contains some experiments executed on Morello Board compartments to evaluate some of its performance parameters. Our final aim is to evaluate the cost of instantiating attestables in the Morello Board. For example, how many of them can be instantiated (created).
 
 
 ## Memory exhaustion by attestable replicas
-The main aim of this experiment is to measure and analyse how the memory of a Morello Board is consumed by instances of attestables. To this end, we loaded the attestsable
-with a C program compiled with library compartmentalisation tool and 
-loaded in a compartment; precisely, we used the enterprise application integration 
+The main aim of this experiment is to measure and analyse how the memory of a Morello Board is consumed by instances (also called replicas) of attestables. To this 
+end, we loaded the attestsable with a C program compiled with library compartmentalisation tool and loaded in a compartment; precisely, we used 
+the enterprise application integration 
 (see yellow box) use case implemented in - [tee-compartimentalisation-study-case repository](https://github.com/CAMB-DSbD/tee-compartimentalisation-study-case "Git repository").
   
 
