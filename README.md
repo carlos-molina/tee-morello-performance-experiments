@@ -75,11 +75,12 @@ The results are shown in [replication of attestable results](https://github.com/
 and exhibit an unexpected behaviour.
 We expected memory consumption to increase steadily 
 form 1628.3 MB which correspond to a single 
-attestable replica to 15406.5 MB (90% of total memmory).<br>    
+attestable replica to 15406.5 MB (90% of total memory) consumed
+by N attestable replicas<br>    
 
 However, unexpectedly, memory consumption increased
 steadly only up to the creation of 3800 attestable replicas
-that consumed 14582.5 MB. Beyond that, memory
+that consumed 14582.5 MB. Beyond that, intriguingly, memory
 consumption decreases as the number of attestable
 replicas increases. Observe that the last
 metric shows that 8991 attestable replicas
