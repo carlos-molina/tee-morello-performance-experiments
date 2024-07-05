@@ -91,7 +91,9 @@ memory).<br>
 We do not have an explanation for that yet.
 We need to double check measurements. We are
 showing this preliminary results only to show
-that this is a pending question in our agenda. 
+that this is a pending question in our agenda.
+The analysys of the time to wipe the memory
+of the attestable replicas is also pending. 
  
  
  
