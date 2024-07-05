@@ -66,8 +66,8 @@ executes the following steps:
 
 1) python3 cheri-cap-experiment.py runs incrementally creating attestable 
 replicas until it detects that the attestables have 
-consumed 90% of the 17118.4 bytes of the Morello Board's memory, 
-that is, about 15406.5 bytes.
+consumed 90% of the 17118.4 MB of the Morello Board's memory, 
+that is, about 15406.5 MB.
 
 
 ### Preliminary observations: 
